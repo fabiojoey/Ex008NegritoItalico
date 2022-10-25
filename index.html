@@ -1,20 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Formatação de Textos</title>
+    <style>
+        mark{
+            background-color:lime
+        }
+    </style>
 </head>
 <body>
     <h1>Principais Formatações</h1>
-    <h2>Negrito/ Destaque</h2>
-    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag (b=bold / mas ela não é semântica ela ñ tem significado só tem forma)</p>
-    <p>Nesta frase, tenho um <strong> termo em destaque </strong> usando a tag STRONG(semântica)</p>
-    <h2>Italico / Ênfase</h2>
-    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I(não semântica)</p>
-    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
     
+    <h2>Negrito/ Destaque</h2>
+    
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag (b=bold / mas ela não é semântica ela ñ tem significado só tem forma)</p>
+    
+    <p>Nesta frase, tenho um <strong> termo em destaque </strong> usando a tag STRONG(semântica)</p>
+
+    <h2>Italico / Ênfase</h2>
+
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I(não semântica)</p>
+
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
+
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark style="background-color: lime;">um texto marcado</mark> usando a tag MARK.</p>
+    <p>E no outro pargrafo, temos <mark>outro texto marcado</mark> no final</p>
+
+    <!--a tag mark podemos chamar de marca texto ele vem em padrão em amarelo, mas podemos criar um style="background-color: (color);dentro da propria tag mark ou criar na head um style mark{background-color:lime assim deixamos todas marcações deste texto verde}"-->
+
+    <!-- Dica quando seleciona um trecho do texto e da um Ctrl + Shift + p abre a aba de pesquisa use a função Wrapt with Abbreviation ele deixa vc envolver um texto com qualquer marcação basta marcar o texto usar ctrl+shift+p e depois escrever a teg que quiser  -->
+
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse paragrafo</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <!--Del= texto excluido ele ficara marado com um risco em cima-->
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <!-- Ins= Texto inserido ele ficara com underline embiaxo parecendo que escrevemos em cima de uma linha -->
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+    <!--Usamos o sup para deixar a cima superior/ e sub para deixar a baixo submerso-->
+
 </body>
 </html>
